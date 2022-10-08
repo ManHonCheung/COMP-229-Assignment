@@ -9,7 +9,7 @@ var express = require('./config/express'); 
 var app = express(); 
 
 var HOST = 'localhost'
-var PORT = 3000
+var PORT = process.env.PORT || 3000
 
 app.listen(PORT); 
 
