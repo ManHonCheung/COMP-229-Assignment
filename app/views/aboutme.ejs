@@ -1,0 +1,33 @@
+<!--   File name:  aboutme.ejs
+     Student name: Man Hon Cheung
+     Student ID: 301228570
+     date : 8-oct-2022   -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+
+</head>
+<header>
+    <%- include ("./partials/header") %>
+</header>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<body>
+<div id="index">
+<img src="img/abouutme.JPG" alt="Leo" srcset="img/aboutme.JPG 7000w" />
+<h1>
+<title><%= title %></title>
+</h1>
+<h3><%= description %></h3>
+
+<h1>
+<a href="img/resume.pdf" download="my pdf files"><button id="btnTop">Download the pdf</button></a>
+<h1>
+</body>
+
+<footer>
+    <%- include ("./partials/footer.ejs") %>
+  </footer>
+</html>

@@ -1,0 +1,37 @@
+<!--   File name: index.ejs
+     Student name: Man Hon Cheung
+     Student ID: 301228570
+     date : 8-oct-2022   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+
+</head>
+<header>
+    <%- include ("./partials/header") %>
+</header>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<body>
+
+
+
+<div id="index">
+<img src="img/me.JPG" alt="Leo" srcset="img/me.JPG 3000w" />
+
+     <h1><%= title %></h1>
+    <h3><%= description %></h3>
+    <h5>Please enter the button go back to Homepage</h5>
+    <form action="/" method="http://localhost:3000/">
+    <button id="btnTop">Default Button</button>
+
+</body>
+<footer>
+    <%- include ("./partials/footer.ejs") %>
+  </footer>
+</html>
